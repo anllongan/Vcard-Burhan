@@ -8,7 +8,7 @@ body{
     font-family: 'Roboto', sans-serif;
     width: 100%;
     height: fit-content;
-    background-color:  rgba(196, 198, 199, 0.614)
+    background-color:  white;
 }
 
 
@@ -76,15 +76,14 @@ header .navbar .card-body{
     padding: 0;
     position: absolute;
     top: 1%;
-    left: 16%;
+    left: 18%;
     transition: 2s ease;
     opacity: 0.9;
+    
 }
 
-
-header .navbar #qrcollapse:hover body{
-    display: none;
-    visibility: hidden;
+header .navbar .card-body img{
+    z-index: 100000;
 }
 
 
