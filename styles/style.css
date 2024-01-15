@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+body{
+    align-content: center;
+    justify-content: center;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: auto;
+    background-color:  rgba(196, 198, 199, 0.614)
+}
+
+
+header{
+    background-image: url(../img/bde8d52a-b9b2-4ef0-8f73-d53e95353633.JPG);
+    background-position:50% 58%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    z-index: 1;
+    position: sticky;
+    top: 0;
+}
+
+
+header .navbar{
+    display: flexbox;
+    width: 100%;
+    height: 370px;
+}
+
+header .navbar h1{
+    margin-top: 308px;
+    width: 100%;
+    justify-content: flex-end;
+    background-color: rgba(212, 209, 209, 0.69);
+    padding: 5px 0 50px;
+    text-align: center;
+    color: #4a4949;
+    
+}
+
+
+
+
+
+main{
+    z-index: 2;
+    position: relative;
+}
+
+main .content{
+    scroll-behavior: smooth;
+    margin-top: -40px;
+    padding-bottom: 40px;
+    margin-bottom: 50px;
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+}
+
+main .content .container{
+    margin: 0 auto;
+    height: auto;
+}
+
+main .content .buttons{
+    padding: 10px 3px;
+    width: 100%;
+    display: flex;
+
+}
+
+main .content .buttons .tel{
+    background-color: #6C757D;
+    border-radius: 0;
+    width: 47%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+main .content .buttons .tel a{
+    align-items: flex-start;
+    text-transform: initial;
+    vertical-align: middle;
+}
+
+main .content .buttons .tel i{
+    background-color: #6C757D;
+}
+
+main .content .buttons .mail{
+    background-color: #809BCE;
+    border-radius: 0;
+    width: 47%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    justify-content: end;
+}
+
+main .content .buttons .mail a{
+    text-transform: initial;
+    font-size: 14px;
+    padding-right: 10px;
+}
+
+main .content .buttons .mail i{
+    background-color: #809BCE;
+   
+    
+}
+
+
+
+main .content .container .links{
+    display: flex;
+    position: relative;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 0;
+    transition: 1s ease;
+}
+
+main .content .links a{
+    color: rgb(14, 0, 0);
+    font-size: 110%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: #b7b5b5;
+}
+
+main .content .links .webpage a{
+    border: 1px;
+    background-color: #fff;
+}
+
+main .content .links .sahibinden a{
+    background-color: #ffe800;
+}
+
+main .content .container .links div p{
+    padding: 10px 0;
+    font-size: 10px;
+    text-align: center;
+}
+
+main .content .container .links div{
+    transition: 1s ease;
+    height: fit-content;
+
+}
+
+main .content .container .links div:hover{
+    transform: scale(1.1);
+}
+
+main .content .container .links div p{
+    margin: 0;
+}
+
+main .content button {
+    display: flex;
+    justify-content: stretch;
+    border: none;
+    width: 90%;
+    height: auto;
+    margin: 10px auto;
+    padding: 1px;
+    border-radius: 30px;
+    transition: 1s ease;  
+}
+
+main .content button:hover{
+    transform: scale(1.06);
+}
+
+main .content button .link{
+    font-weight: 300;
+    font-size: 20px;
+    text-transform: initial;
+    padding: 5px 5px;
+    vertical-align: middle;
+}
+
+
+main .content button i{
+    background-color: white;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+
+main .content button a{
+    text-decoration: none;
+    text-transform: lowercase;
+    color: black;
+    
+}
+
+
+main .content .info h1{
+    font-size: 17px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+main .content .social{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    
+}
+
+main .content .social .links {
+    display: flex;
+    position: relative;
+    list-style: none;
+    justify-content: space-evenly;
+    margin: 30px 0px;
+    padding: 0;
+}
+
+main .content .social .links div{
+    margin: 0;
+    padding: 0;
+}
+
+main .content .social .links div a{
+    background-color: white;
+}
+
+main .content .social .links div p{
+    text-align: center;
+    font-size: 10px;
+}
