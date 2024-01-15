@@ -140,10 +140,10 @@ main .content .buttons .tel{
     width: 47%;
     border-top-left-radius: 40px;
     border-bottom-left-radius: 40px;
+    justify-content: center;
 }
 
 main .content .buttons .tel a{
-    align-items: flex-start;
     text-transform: initial;
     vertical-align: middle;
 }
@@ -152,26 +152,30 @@ main .content .buttons .tel i{
     background-color: orange;
 }
 
-main .content .buttons .mail{
+main .content .buttons .addContact{
     background-color: orange;
     border-radius: 0;
     width: 47%;
     border-top-right-radius: 40px;
     border-bottom-right-radius: 40px;
-    justify-content: end;
+    justify-content: center;
 }
 
-main .content .buttons .mail a{
+main .content .buttons .addContact a{
     text-transform: initial;
     font-size: 14px;
-    padding-right: 10px;
-}
-
-main .content .buttons .mail i{
-    background-color: orange;
-   
     
 }
+
+main .content .buttons .addContact i{
+    background-color: orange;
+    font-size: 24px;
+}
+
+main .content .buttons .addContact p{
+    margin: 10px 5px 0 0;
+}
+
 
 
 
