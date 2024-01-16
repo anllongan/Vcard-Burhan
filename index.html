@@ -18,10 +18,10 @@
     <header>
         <div class="navbar">
             <div class="bar">
-                <button data-bs-toggle="collapse" data-bs-target="#qrCollapse">
-                    <i class="fa-solid fa-qrcode fa-lg" style="color: #000000;"></i>
+                <button data-bs-toggle="collapse" data-bs-target="#qrCollapse" id="qrButton">
+                    <img src="img/qr.png" alt="">
                 </button>
-                <div class="collapse" id="qrCollapse">
+                <div class="collapse" id="qrCollapse" itemid="qrModal">
                     <div class="card card-body">
                         <!-- Buraya hakkında içeriğinizi ekleyebilirsiniz -->
                         <img  width="250px"   src="img/frame-3.png" alt="">
@@ -37,10 +37,10 @@
         <div class="content">
             <div class="buttons">
                 <button class="tel left-col">
-                    <a href="tel:05438680810"><i class="fa-solid fa-phone"></i>Ara</a>
+                    <a href="tel:05438680810"><img width="25px" src="img/phone-call.png" alt=""></i> Ara</a>
                 </button>
                 <button class="addContact left-col" id="save-btn">
-                    <i class="fa-regular fa-address-book"></i>
+                    <img width="25px" src="img/contact.png" alt="">
                     <p>Rehbere Kaydet</p>
                 </button>
             </div>
@@ -52,7 +52,7 @@
                         <p>Web Sitesi</p>
                     </div>
                     <div class="mail">
-                        <li class="mail"> <a href="mailto:info@anilongan.com"> <i class="fa-solid fa-envelope"></i></a>
+                        <li class="mail"> <a href="mailto:info@anilongan.com"> <img width="30px" src="img/gmail.png" alt=""></a>
                         </li>
                         <p>E-Posta</p>
                     </div>
@@ -64,31 +64,16 @@
 
                 </ul>
             </div>
-            <button data-bs-toggle="collapse" data-bs-target="#konumCollapse1">
-                <i class="fa-solid fa-location-dot"></i>
-                <a class="link" href="https://maps.app.goo.gl/YfqkzHSw9VH79VdR9">Konum</a>
-            </button>
-            <div class="collapse" id="konumCollapse1">
-                <div class="card card-body">
-                    <!-- Buraya hakkında içeriğinizi ekleyebilirsiniz -->
-                    <h1 style="text-align: center; font-size: 15px;">Konum</h1>
-                    <p style="font-size: 13px;"><strong>Adres:</strong> <em> KASIMPAŞA MAH. ATATÜRK CADDESİ 85 /1A MENDERES/ İZMİR</em></p>
 
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3132.9962125158277!2d27.128186976423617!3d38.25639388427046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14bbe1ce54ca43f9%3A0x23d6b36a98a6136c!2sLarin%20Gayrimenkul!5e0!3m2!1str!2str!4v1705323662750!5m2!1str!2str"
-                        width="auto" height="auto" style="border:1px;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-            </div>
             
             <div class="social">
                 <ul class="links">
                     <div class="instagram">
-                        <li class="instagram"><a href="https://www.instagram.com/on_lifegayrimenkul/"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li class="instagram"><a href="https://www.instagram.com/on_lifegayrimenkul/"><img width="20px" src="img/instagram-3.png" alt=""></a></li>
                         <p>İnstagram</p>
                     </div>
                     <div class="facebook">
-                        <li class="facebook"> <a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li class="facebook"> <a href="#"><img width="20px" src="img/facebook.png"></img></a></li>
                         <p>Facebook</p>
                     </div>
                     <div class="linkedin">
@@ -101,6 +86,7 @@
 
             <div class="info">
                 <h1>Bilgiler</h1>
+
                 <button data-bs-toggle="collapse" data-bs-target="#hakkindaCollapse3">
                     <i class="far fa-address-card"></i>
                     <a class="link">Hakkında</a>
@@ -113,6 +99,22 @@
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia sint reiciendis incidunt
                             voluptate veritatis sequi doloribus dignissimos magnam quidem aliquid, labore reprehenderit
                             odit beatae asperiores adipisci quis non quae blanditiis?</p>
+                    </div>
+                </div>
+                <button data-bs-toggle="collapse" data-bs-target="#konumCollapse1">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <a class="link" href="https://maps.app.goo.gl/YfqkzHSw9VH79VdR9">Konum</a>
+                </button>
+                <div class="collapse" id="konumCollapse1">
+                    <div class="card card-body">
+                        <!-- Buraya hakkında içeriğinizi ekleyebilirsiniz -->
+                        <h1 style="text-align: center; font-size: 15px;">Konum</h1>
+                        <p style="font-size: 13px;"><strong>Adres:</strong> <em> KASIMPAŞA MAH. ATATÜRK CADDESİ 85 /1A MENDERES/ İZMİR</em></p>
+    
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3132.9962125158277!2d27.128186976423617!3d38.25639388427046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14bbe1ce54ca43f9%3A0x23d6b36a98a6136c!2sLarin%20Gayrimenkul!5e0!3m2!1str!2str!4v1705323662750!5m2!1str!2str"
+                            width="auto" height="auto" style="border:1px;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
                 <button data-bs-toggle="collapse" data-bs-target="#hesapCollapse2">

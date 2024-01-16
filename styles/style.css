@@ -145,12 +145,10 @@ main .content .buttons .tel{
 
 main .content .buttons .tel a{
     text-transform: initial;
-    vertical-align: middle;
+    padding: 10px ;
+    font-size: 14px;
 }
 
-main .content .buttons .tel i{
-    background-color: orange;
-}
 
 main .content .buttons .addContact{
     background-color: orange;
@@ -161,16 +159,16 @@ main .content .buttons .addContact{
     justify-content: center;
 }
 
-main .content .buttons .addContact a{
+main .content .buttons .addContact p{
     text-transform: initial;
     font-size: 14px;
-    
+    padding: 1px ;
 }
 
-main .content .buttons .addContact i{
-    background-color: orange;
-    font-size: 24px;
+main .content .buttons .addContact img{
+    margin: 8px 5px ;
 }
+
 
 main .content .buttons .addContact p{
     margin: 10px 5px 0 0;
@@ -196,7 +194,7 @@ main .content .links a{
     padding: 10px;
     margin: 10px;
     border-radius: 50%;
-    background-color: #b7b5b5;
+    background-color: #fff;
 }
 
 main .content .links .webpage a{
@@ -272,7 +270,7 @@ main .content button a{
 main .content .info h1{
     font-size: 17px;
     text-align: center;
-    padding: 10px 0;
+   
 }
 
 main .content .social{
@@ -287,8 +285,8 @@ main .content .social .links {
     position: relative;
     list-style: none;
     justify-content: space-evenly;
-    margin: 30px 0px;
-    padding: 0;
+    margin: 0px 0px;
+    padding: 0 50px;
 }
 
 main .content .social .links div{
@@ -309,3 +307,6 @@ footer .text p{
     margin: 0;
     padding: 0;
 }
+
+
+
