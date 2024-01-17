@@ -314,6 +314,10 @@ main .content .social .links div p {
     font-size: 10px;
 }
 
+#hakkindaCollapse6{
+    overflow-x: hidden;
+}
+
 #hakkindaCollapse6 h1 {
     font-size: 15px;
     text-align: center;
@@ -334,6 +338,7 @@ main .swiper-slide {
     font-size: 22px;
     font-weight: bold;
     color: #fff;
+    overflow-x: hidden;
 }
 
 
