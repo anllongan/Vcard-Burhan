@@ -14,7 +14,7 @@ body {
 
 
 header {
-    background-image: url(../img/bde8d52a-b9b2-4ef0-8f73-d53e95353633.JPG);
+    background-image: url(../img/bde8d52a-b9b2-4ef0-8f73-d53e95353633.webp);
     background-position: 50% 58%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -326,8 +326,8 @@ main .content .social .links div p {
 
 
 main .swiper {
-    width: 312px;
-    height: 370px;
+    width: 240px;
+    height: 320px;
 }
 
 main .swiper-slide {
@@ -344,115 +344,115 @@ main .swiper-slide {
 
 main .swiper-slide:nth-child(1n) {
     background-color: orange;
-    background-image: url(../img/Ekran\ Resmi\ 2023-11-20\ 19.09.03.png);
+    background-image: url(../img/Ekran\ Resmi\ 2023-11-20\ 19.09.03.webp);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 312px;
+    background-size: 240px;
 
 }
 
 main .swiper-slide:nth-child(2n) {
     background-color: orange;
-    background-image: url(../img/Ekran\ Resmi\ 2024-01-17\ 13.08.55.png);
+    background-image: url(../img/Ekran\ Resmi\ 2024-01-17\ 14.30.53.webp);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 312px;
+    background-size: 240px;
 }
 
 main .swiper-slide:nth-child(3n) {
     background-color: orange;
-    background-image: url(../img/Ekran\ Resmi\ 2024-01-17\ 13.09.05.png);
+    background-image: url(../img/Ekran\ Resmi\ 2024-01-17\ 14.31.09.webp);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 312px;
+    background-size: 240px;
 }
 
 main .swiper-slide:nth-child(4n) {
     background-color: orange;
-    background-image: url(../img/Ekran\ Resmi\ 2024-01-17\ 13.09.26.png);
+    background-image: url(../img/Ekran\ Resmi\ 2024-01-17\ 14.31.22.webp);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 312px;
+    background-size: 240px;
 }
 
 main .swiper-slide:nth-child(5n) {
     background-color: orange;
-    background-image: url(../img/Ekran\ Resmi\ 2024-01-17\ 13.09.32.png);
+    background-image: url(../img/Ekran\ Resmi\ 2024-01-17\ 14.31.33.webp);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 312px;
+    background-size: 240px;
 }
 
 main .swiper-slide:nth-child(6n) {
     background-color: orange;
-    background-image: url(../img/Ekran\ Resmi\ 2024-01-17\ 13.09.48.png);
+    background-image: url(../img/Ekran\ Resmi\ 2024-01-17\ 14.31.46.webp);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 312px;
+    background-size: 240px;
 }
 
 main .swiper-slide:nth-child(7n) {
     background-color: orange;
-    background-image: url(../img/Ekran\ Resmi\ 2024-01-17\ 13.09.54.png);
+    background-image: url(../img/Ekran\ Resmi\ 2024-01-17\ 14.31.57.webp);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 312px;
+    background-size: 240px;
 }
 
 main .swiper-slide:nth-child(8n) {
     background-color: orange;
-    background-image: url(../img/Ekran\ Resmi\ 2024-01-17\ 13.10.04.png);
+    background-image: url(../img/Ekran\ Resmi\ 2024-01-17\ 14.32.07.webp);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 312px;
+    background-size: 240px;
 }
 
 main .swiper-slide:nth-child(9n) {
     background-color: orange;
-    background-image: url(../img/Ekran\ Resmi\ 2024-01-17\ 13.10.09.png);
+    background-image: url(../img/Ekran\ Resmi\ 2024-01-17\ 14.32.16.webp);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 312px;
+    background-size: 240px;
 }
 
 main .swiper-slide:nth-child(10n) {
     background-color: orange;
-    background-image: url(../img/Ekran\ Resmi\ 2024-01-17\ 13.10.16.png);
+    background-image: url(../img/Ekran\ Resmi\ 2024-01-17\ 14.32.23.webp);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 312px;
+    background-size: 240px;
 }
 
 main .swiper-slide:nth-child(11n) {
     background-color: orange;
-    background-image: url(../img/Ekran\ Resmi\ 2024-01-17\ 13.10.25.png);
+    background-image: url(../img/Ekran\ Resmi\ 2024-01-17\ 14.32.44.webp);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 312px;
+    background-size: 240px;
 }
 
 main .swiper-slide:nth-child(12n) {
     background-color: orange;
-    background-image: url(../img/Ekran\ Resmi\ 2024-01-17\ 13.10.40.png);
+    background-image: url(../img/Ekran\ Resmi\ 2024-01-17\ 14.32.53.webp);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 312px;
+    background-size: 240px;
 }
 
 main .swiper-slide:nth-child(13n) {
     background-color: orange;
-    background-image: url(../img/Ekran\ Resmi\ 2024-01-17\ 13.10.53.png);
+    background-image: url(../img/Ekran\ Resmi\ 2024-01-17\ 14.33.10.webp);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 312px;
+    background-size: 240px;
 }
 
 main .swiper-slide:nth-child(14n) {
     background-color: orange;
-    background-image: url(../img/Ekran\ Resmi\ 2024-01-17\ 13.10.58.png);
+    background-image: url(../img/Ekran\ Resmi\ 2024-01-17\ 14.33.17.webp);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 312px;
+    background-size: 240px;
 }
 
 footer .text p {
