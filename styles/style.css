@@ -336,9 +336,6 @@ main .swiper-slide {
     color: #fff;
 }
 
-main .swiper-slide:hover{
-    transform: scale(1.2);
-}
 
 main .swiper-slide:nth-child(1n) {
     background-color: orange;
