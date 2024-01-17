@@ -45,3 +45,10 @@ document.addEventListener("DOMContentLoaded", function () {
     qrCollapse.classList.remove("show");
   });
 });
+
+
+
+var swiper = new Swiper(".mySwiper", {
+  effect: "cards",
+  grabCursor: true,
+});
