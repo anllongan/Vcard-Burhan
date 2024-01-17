@@ -135,12 +135,14 @@ main .content .buttons{
 }
 
 main .content .buttons .tel{
-    background-color: orange;
+    box-shadow: inset -5px -5px 15px -5px rgba(0, 0, 0, 0.5);
+	background-color:orange;
     border-radius: 0;
     width: 47%;
     border-top-left-radius: 40px;
     border-bottom-left-radius: 40px;
     justify-content: center;
+    transition: 1s;
 }
 
 main .content .buttons .tel a{
@@ -151,12 +153,20 @@ main .content .buttons .tel a{
 
 
 main .content .buttons .addContact{
+    box-shadow: inset -5px -5px 15px -5px rgba(0, 0, 0, 0.5);
     background-color: orange;
     border-radius: 0;
     width: 47%;
     border-top-right-radius: 40px;
     border-bottom-right-radius: 40px;
     justify-content: center;
+    transition: 1s ease;
+}
+
+main .content .buttons .tel:hover,
+main .content .buttons .addContact:hover {
+    box-shadow: inset -5px -5px 20px -5px rgba(0, 0, 0, 0.7);
+    transform: scale(1.03);
 }
 
 main .content .buttons .addContact p{
@@ -172,6 +182,7 @@ main .content .buttons .addContact img{
 
 main .content .buttons .addContact p{
     margin: 10px 5px 0 0;
+    color: black;
 }
 
 
@@ -202,9 +213,7 @@ main .content .links .webpage a{
     background-color: #fff;
 }
 
-main .content .links .sahibinden a{
-    background-color: #ffe800;
-}
+
 
 main .content .container .links div p{
     padding: 10px 0;
@@ -244,7 +253,7 @@ main .content button:hover{
 
 main .content button .link{
     font-weight: 300;
-    font-size: 20px;
+    font-size: 16px;
     text-transform: initial;
     padding: 5px 5px;
     vertical-align: middle;
@@ -253,6 +262,7 @@ main .content button .link{
 
 main .content button i{
     background-color: white;
+    color: black;
     padding: 10px;
     font-size: 20px;
     border-radius: 50%;
@@ -309,4 +319,11 @@ footer .text p{
 }
 
 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    body{
+        max-width: 600px;
+    }
+}
 
