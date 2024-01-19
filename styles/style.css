@@ -35,7 +35,7 @@ header .navbar {
 }
 
 header .navbar .bar button {
-    background: #c2c2c2;
+    
     border: none;
     background-image: linear-gradient(to bottom, #c2c2c2, #7a7a7a);
     border-radius: 24px;
@@ -284,35 +284,9 @@ main .content .info h1 {
 
 }
 
-main .content .social {
-    margin: 0;
-    padding: 0;
-    align-items: center;
 
-}
 
-main .content .social .links {
-    display: flex;
-    position: relative;
-    list-style: none;
-    justify-content: space-evenly;
-    margin: 0px 0px;
-    padding: 0 50px;
-}
 
-main .content .social .links div {
-    margin: 0;
-    padding: 0;
-}
-
-main .content .social .links div a {
-    background-color: white;
-}
-
-main .content .social .links div p {
-    text-align: center;
-    font-size: 10px;
-}
 
 #hakkindaCollapse6{
     overflow-x: hidden;
@@ -354,6 +328,13 @@ footer .text p {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     body {
-        max-width: 600px;
+        margin: auto;
+        max-width: 400px;
+    }
+
+    header .navbar h1{
+        padding-top: 10px;
+        font-size: 30px;
+        opacity: 0.7;
     }
 }
